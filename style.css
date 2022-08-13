@@ -55,6 +55,8 @@
     .keep_article{
         flex-direction: column;
     }
+
+
 }
 /* ------article1---- */
 .keep_title{
@@ -116,3 +118,139 @@
     display: flex;
     align-items: center;
 }
+/* ----supercharge------- */
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 1.5rem;
+}
+.nav_1{
+    width: 20%;
+    display: inline;
+    text-align: center; 
+    margin: 1rem;
+}
+.nav_1 h4{
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+.nav_1 p{
+    margin: 1rem;
+}
+@media only screen and (max-width: 700px) {
+    .nav{
+        flex-direction: column;
+      
+    }
+    .nav_1{
+        flex-direction: column;
+        width: 80%;
+
+    }
+
+
+}
+/* -------icons--- */
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin:4rem;
+}
+@media only screen and (max-width: 700px) {
+    .icons{
+        flex-direction: column;
+    }
+    .icons img{
+        margin: 1rem;
+    }
+}
+/* -----footer--- */
+.footer{
+    margin-top: 2rem;
+    background-color: rgb(242, 239, 239);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_logo{
+    width: 10%;
+
+}
+.footer_logo img{
+    width: 55%;
+    margin: 1rem;
+}
+.footer_nav{
+    width: 30%;
+    flex-wrap: wrap;
+
+    font-size: 1.3rem;
+}
+.footer_nav ul li{
+    display: inline-block;
+    margin: 1rem;
+
+}
+.footer_nav ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+.footer_social{
+    display: flex;
+    width: 10%;
+   
+    
+}
+.footer_social img{
+  height: fit-content;
+  width: auto;
+  margin: auto;
+}
+.footer_social img:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+    .footer{
+        display: block;
+        text-align: center;
+        flex-direction: column;
+    }
+    .footer_logo{
+        display: block;
+        width: 100%;
+    }
+    .footer_logo img{
+        width: 30%;
+        margin: auto;
+        margin-top: 10%;
+    }
+    .footer_nav{
+        display: block;
+        width: 80%;
+        margin: 10% auto;
+    }
+    .footer_nav ul{
+        display: block;
+    }
+    .footer_nav ul li{
+        flex-direction: column;
+        width: 80%;
+        margin: 1rem;
+        text-align: center;
+    }
+    .footer_social{
+        display: inline-block;
+        flex-direction: row;
+        width: 100%;
+
+    }
+    .footer_social img{
+        margin: 0.5rem;
+    }
+}
+
+
+
+   
