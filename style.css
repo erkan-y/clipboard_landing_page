@@ -160,9 +160,12 @@
 @media only screen and (max-width: 700px) {
     .icons{
         flex-direction: column;
+        width: 60%;
     }
     .icons img{
-        margin: 1rem;
+        margin: 1rem auto;
+        width: 80%;
+        
     }
 }
 /* -----footer--- */
