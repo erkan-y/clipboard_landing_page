@@ -41,12 +41,20 @@
     display: inline-block;
 
 }
+.IOS:hover{
+    color: red;
+    cursor: pointer;
+}
 .MAC{
     background-color: hsl(233, 100%, 69%);
     padding: 10px;
     border-radius: 15px;
     margin: 0.5rem;
 
+}
+.MAC:hover{
+    color: red;
+    cursor: pointer;
 }
 @media only screen and (max-width: 700px) {
     .downloads{
@@ -207,12 +215,24 @@
     
 }
 .footer_social img{
-  height: fit-content;
+  height: auto;
   width: auto;
-  margin: auto;
+  margin: 0.5 rem;
 }
 .footer_social img:hover{
     cursor: pointer;
+}
+.fa:hover{
+    cursor: pointer;
+    color: red;
+}
+.bottom{
+    display: inline-block;
+    justify-content: center;
+    margin: 2rem;
+}
+.signature{
+    margin-top: 0.5rem;
 }
 @media only screen and (max-width: 700px) {
     .footer{
