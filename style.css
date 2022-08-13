@@ -160,11 +160,11 @@
 @media only screen and (max-width: 700px) {
     .icons{
         flex-direction: column;
-        width: 60%;
+        width: 70%;
     }
     .icons img{
         margin: 1rem auto;
-        width: 80%;
+        width: 70%;
         
     }
 }
