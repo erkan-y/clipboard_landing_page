@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    /* min-height: 100vh; */
+    width: 100%;
+    height: 10rem;
+    background-image:url("./images/bg-header-desktop.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.header img{
+    width: 5rem;
+    height: 5rem;
+}
+.head_title{
+    text-align: center;
+    margin: 1.5rem;
+}
+.head_title h1{
+    margin: 1.4rem;
+}
+
+.downloads{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+.IOS{
+    background-color: hsl(171, 66%, 44%);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0.5rem;
+    display: inline-block;
+
+}
+.MAC{
+    background-color: hsl(233, 100%, 69%);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0.5rem;
+
+}
+@media only screen and (max-width: 700px) {
+    .downloads{
+        flex-direction: column;
+    }
+    .keep_article{
+        flex-direction: column;
+    }
+}
+/* ------article1---- */
+.keep_title{
+    text-align: center;
+    margin: 1.5rem;
+}
+.keep_title p{
+    margin: 1.5rem;
+}
+.keep_article{
+    display: flex;
+    margin: 1.5rem;
+
+}
+.desktop{
+    width: 50%;
+}
+.desktop img{
+    width: 100%;
+    margin: 1.5rem;
+    margin-left: -2rem;
+
+}
+.keep_nav{
+    width: 40%;
+    margin: auto;
+    margin-left: 2rem;
+}
+.keep_1, .keep_2, .keep_3{
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+@media only screen and (max-width: 1300px) {
+    .keep_article{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .desktop img{
+        margin: auto;
+        
+    }
+    .keep_nav{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+}
+/* -----------devices------ */
+.devices{
+    width: 100%;
+    margin-top: 3rem;
+}
+.devices img{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
